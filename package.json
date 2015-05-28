@@ -1,0 +1,32 @@
+{
+  "name": "express-isoproxy",
+  "version": "0.1.0",
+  "description": "Express middleware for IsoProxy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build_example": "browserify -d -e example/client -o example/public/app.js",
+    "start_example": "node example/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/s-shin/express-isoproxy"
+  },
+  "keywords": [
+    "express",
+    "isomorphic"
+  ],
+  "author": "Shintaro Seki <s2pch.luck@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-shin/express-isoproxy/issues"
+  },
+  "homepage": "https://github.com/s-shin/express-isoproxy",
+  "devDependencies": {
+    "body-parser": "^1.12.4",
+    "browserify": "^10.2.1",
+    "express": "^4.12.4",
+    "isoproxy": "^0.2.1",
+    "morgan": "^1.5.3"
+  }
+}
